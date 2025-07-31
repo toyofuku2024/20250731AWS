@@ -4,7 +4,7 @@ const API_ENDPOINT1 = 'https://yu91faxkb9.execute-api.us-west-2.amazonaws.com/ms
 const API_ENDPOINT2 = 'https://yu91faxkb9.execute-api.us-west-2.amazonaws.com/ms_massage_2';
 
 function App() {
-  const [result, setResult] = useState('結果がここに表示されます');
+  const [result, setResult] = useState('難しいわこれ');
   const [loadingButton, setLoadingButton] = useState('');
 
   const callLambda = async (endpoint, buttonId) => {
