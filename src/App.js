@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const API_ENDPOINT1 = 'https://yu91faxkb9.execute-api.us-west-2.amazonaws.com/ms_message_1';
-const API_ENDPOINT2 = 'https://yu91faxkb9.execute-api.us-west-2.amazonaws.com/ms_massage_2';
+const API_ENDPOINT2 = 'https://yu91faxkb9.execute-api.us-west-2.amazonaws.com/ms_massege_2';
 
 function App() {
   const [result, setResult] = useState('難しいわこれ');
